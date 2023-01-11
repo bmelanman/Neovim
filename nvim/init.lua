@@ -125,8 +125,8 @@ vim.cmd('colorscheme base16-$BASE16_THEME')
 -- Set completeopt to have a better completion experience 
 vim.o.completeopt = 'menuone,noselect'
 
--- Set backup location
-local_backupdir = "./backups" 
+-- Set backup location 
+local_backupdir = "./.backups" 
 
 -- If the directory doesn't exist, it will be created
 if (vim.fn.isdirectory(local_backupdir) ~= 0) then
