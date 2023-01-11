@@ -1,3 +1,3 @@
 return function(use)
-	use "nvim-base16"
+	use "RRethy/nvim-base16"
 end

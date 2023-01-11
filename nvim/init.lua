@@ -119,6 +119,7 @@ vim.o.updatetime = 250
 vim.wo.signcolumn = 'yes'
 
 -- Set colorscheme
+-- $BASE16_THEME must be defined within the shell to avoid errors 
 vim.cmd('colorscheme base16-$BASE16_THEME')
 
 -- Set completeopt to have a better completion experience 
