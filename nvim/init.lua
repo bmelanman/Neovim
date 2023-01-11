@@ -152,6 +152,10 @@ vim.keymap.set({ 'n', 'v' }, '<Space>', '<Nop>', { silent = true })
 vim.keymap.set('n', 'k', "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = true })
 vim.keymap.set('n', 'j', "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = true })
 
+-- Remap delete to use void reg, and <C-Del> to delete a whole word
+vim.api.nvim_set_keymap('', 'd', '"_d', {noremap = true})
+vim.api.nvim_set_keymap('i', '<C-H>', '<C-W>', {noremap = true})
+
 -- [[ Highlight on yank ]]
 -- See `:help vim.highlight.on_yank()`
 local highlight_group = vim.api.nvim_create_augroup('YankHighlight', { clear = true })
