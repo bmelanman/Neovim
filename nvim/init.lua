@@ -119,8 +119,6 @@ vim.o.updatetime = 250
 vim.wo.signcolumn = 'yes'
 
 -- Set colorscheme
--- the Neovim colorscheme is now managed by base16-shell in zplug
--- Change colorschemes in ~/.zshrc
 vim.cmd('colorscheme base16-$BASE16_THEME')
 
 -- Set completeopt to have a better completion experience 
@@ -339,10 +337,12 @@ end
 --  the `settings` field of the server config. You must look up that documentation yourself.
 local servers = {
   clangd = {},
-  -- gopls = {},
-  -- pyright = {},
-  -- rust_analyzer = {},
-  -- tsserver = {},
+  sumneko_lua = {
+    Lua = {
+      workspace = { checkThirdParty = false },
+      telemetry = { enable = false },
+    },
+  }
 }
 
 -- Setup neovim lua configuration
