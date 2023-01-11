@@ -1,0 +1,28 @@
+{
+    "$schema": "https://raw.githubusercontent.com/sumneko/vscode-lua/master/setting/schema.json",
+    "Lua.workspace.library": [
+        "/Users/brycemelander/.local/share/nvim/site/pack/packer/start/neodev.nvim/types/stable",
+        "/opt/homebrew/Cellar/neovim/0.8.2/share/nvim/runtime",
+        "/Users/brycemelander/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects",
+        "/Users/brycemelander/.local/share/nvim/site/pack/packer/opt/telescope-fzf-native.nvim",
+        "/Users/brycemelander/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+        "/Users/brycemelander/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
+        "/Users/brycemelander/.local/share/nvim/site/pack/packer/start/Comment.nvim",
+        "/Users/brycemelander/.local/share/nvim/site/pack/packer/start/fidget.nvim",
+        "/Users/brycemelander/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+        "/Users/brycemelander/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
+        "/Users/brycemelander/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+        "/Users/brycemelander/.local/share/nvim/site/pack/packer/start/LuaSnip",
+        "/Users/brycemelander/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+        "/Users/brycemelander/.local/share/nvim/site/pack/packer/start/mason.nvim",
+        "/Users/brycemelander/.local/share/nvim/site/pack/packer/start/neodev.nvim",
+        "/Users/brycemelander/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+        "/Users/brycemelander/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+        "/Users/brycemelander/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+        "/Users/brycemelander/.local/share/nvim/site/pack/packer/start/onedark.nvim",
+        "/Users/brycemelander/.local/share/nvim/site/pack/packer/start/packer.nvim",
+        "/Users/brycemelander/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+        "/Users/brycemelander/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+        "${3rd}/luassert/library"
+    ]
+}
